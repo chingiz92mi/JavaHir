@@ -6,7 +6,7 @@ export default class Movie extends Component {
         super(props)
 
         this.state = {}
-        this.performSearch("ant man")
+        this.performSearch("i")
     }
 
     performSearch(searchTerm) {
@@ -36,9 +36,6 @@ export default class Movie extends Component {
         const searchTerm = event.target.value
         this.performSearch(searchTerm)
       }
-    
-    
-   
 
     render() {
         return (

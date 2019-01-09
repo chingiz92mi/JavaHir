@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { createHashHistory } from 'react-router';
 import { HashRouter } from 'react-router-dom'
 import Movie from './components/Movie/Movie';
 import Music from './components/pages/music';
@@ -20,7 +19,7 @@ class App extends Component {
         return(
             <div>
             <HashRouter>
-                <BrowserRouter history={createHashHistory}>
+                <BrowserRouter>
                 <div>
                     <Header />
                     <Switch>

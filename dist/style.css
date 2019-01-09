@@ -51,6 +51,17 @@ a {
     border: 1px solid #111;
     font-size: 20px;
 }
+.comingsoonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.comingsoon {
+    transform: rotate(90deg);
+    font-size: 10vh;
+}
 @media screen and (max-width: 425px) {
     .card {
         width: 100%;
