@@ -39,13 +39,13 @@ export default class Movie extends Component {
 
     render() {
         return (
-            <div>
+            <div className="mainDiv">
                 <table className="titleBar">
                 <tbody>
                     <tr>
                     <td width="8"/>
                     <td>
-                        <h1>MoviesDB Search</h1>
+                        <h1>MediaHub</h1>
                     </td>
                     </tr>
                 </tbody>

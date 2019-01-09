@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, IndexRoute} from 'react-router-dom';
 import { HashRouter } from 'react-router-dom'
 import Movie from './components/Movie/Movie';
 import Music from './components/pages/music';
@@ -8,8 +8,8 @@ import Video from './components/pages/video';
 
 const error = () => {
     return(
-        <div>
-            <p>error 404</p>
+        <div className="comingsoonDiv">
+            <p className="comingsoon">error 404</p>
         </div>
     );
 };

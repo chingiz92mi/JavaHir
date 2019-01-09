@@ -20,6 +20,12 @@ body {
     display: flex;
     justify-content: space-around;
 }
+.mainDiv {
+    text-align: center;
+}
+.titleBar {
+    margin: auto;
+}
 a {
     color: #fff;
     text-decoration: none;
@@ -29,6 +35,7 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 40px;
+    text-align: center;
 }
 .card {
     width: 20%;
@@ -61,6 +68,12 @@ a {
     color: #fff;
     border: 1px solid #111;
     font-size: 20px;
+    transition: all .3s;
+}
+.input-search:focus {
+    width: 40%;
+    background: #e1e1e1;
+    color: #333;
 }
 .comingsoonDiv {
     display: flex;
