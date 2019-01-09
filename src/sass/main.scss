@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: #e1e1e1;
+}
+.header {
+    padding: 5px;
+    background: #333;
+    color: #e1e1e1;
+}
+.active {
+    border-bottom: 1px solid #e1e1e1;
+}
+.navigation {
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.wrap_film {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    width: 20%;
+    margin-left: 1%;
+    margin-top: 50px;
+    max-height: 500px;
+    overflow: hidden;
+}
+.card_img {
+    width: 100%;
+}
+.card_img img {
+    width: 100%;
+}
+.input-search {
+    width: 30%;
+    margin-left: 13px;
+    padding: 8px;
+    background: #333;
+    color: #fff;
+    border: 1px solid #111;
+    font-size: 20px;
+}
+@media screen and (max-width: 425px) {
+    .card {
+        width: 100%;
+        max-height: 800px;
+        margin-bottom: 30px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+    }
+}
